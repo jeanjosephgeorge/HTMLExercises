@@ -1,0 +1,19 @@
+div{
+    background-color: blueviolet
+}
+a{
+    color: brown;
+    font-size: 30px;
+    background-color: beige
+}
+/* This modifies the anchors which are direct children of paragraph tags */
+p > a{  
+    color: chartreuse;
+    font-size: 20px;
+    background-color: blue;
+}
+
+/* This changes both div AND p */
+div,p {
+    font-weight: 900
+}
