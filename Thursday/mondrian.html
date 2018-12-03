@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mosaic</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .divFlexRow{
+            display: flex;
+            width: 100%;
+        }
+        .divFlexCol{
+            display: flex;
+        }
+        .container{
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            background-color: gray;
+        }
+        .colOne{
+            display: flex;
+            width: 33%;
+            height: 100%;
+            border: solid 4px rgb(63, 62, 62);
+            box-sizing: border-box;
+            background-color: blanchedalmond
+        }
+        .colTwo{
+            display: flex;
+            width: 34%;
+            height: 100%;
+            border: solid 4px rgb(63, 62, 62);
+            box-sizing: border-box;
+            background-color: bisque
+        }
+        .colThree{
+            display: flex;
+            width: 33%;
+            height: 100%;
+            border: solid 4px rgb(63, 62, 62);
+            box-sizing: border-box;
+            background-color: darkgray
+        }
+        .box{
+            width: 150px;
+            height: 80px;
+            border: solid 2px rgb(63, 62, 62);
+            box-sizing: border-box;
+        }
+        .square{
+            width: 100px;
+            height: 100px;
+            border: solid 2px rgb(63, 62, 62);
+            box-sizing: border-box;
+        }
+        .red{
+            background-color: red;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .black{
+            background-color: black;
+        }
+        .white{
+            background-color: white;
+        }
+        .flex1{
+            flex: 1;
+        }
+        .flex2{
+            flex: 2;
+        }
+        .flex3{
+            flex: 3;
+        }
+        .flex4{
+            flex: 4;
+        }:last-child
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="colOne">
+            <div class="divFlexRow">
+            <div class="box white flex2"></div>
+            <div class="box white flex3"></div>
+            </div>
+        </div>
+    
+
+        <div class="colTwo"></div>
+
+        <div class="colThree"></div>
+    </div>
+</body>
+</html>
